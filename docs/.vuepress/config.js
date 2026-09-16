@@ -3,9 +3,9 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
+  base: '/simple-learning/',
   bundler: viteBundler(),
   theme: defaultTheme({
-    base: '/simple-learning/',
     // default theme config
     navbar: [
         {
